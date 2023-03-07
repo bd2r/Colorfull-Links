@@ -1,0 +1,99 @@
+/**
+ * @name colorfull - links
+ * @version 0.1
+ * @description Is a theme that add colors to links for discord
+ * @author bd2r_T
+ * @authorLink https://github.com/bd2r
+ */
+/* youtube */
+[href*='youtu.be'],
+[href*='youtube.com'] {
+	color: #c4302b !important;
+	font-weight: 700;
+}
+/* twitch */
+[href*='twitch.tv'] {
+	color: #b700ff !important;
+	font-weight: 700;
+}
+/* spotify */
+[href*='spotify.com'] {
+	color: rgb(19, 185, 4) !important;
+	font-weight: 700;
+}
+/* discord to channels */
+[href*='discord.com/channels/'] {
+	color: #7289da !important;
+}
+/* discord jump to message */
+[href*='discord.com/channels/']::before {
+	content: 'Jump to Message : ';
+	font-size: 16px;
+	font-weight: 700;
+	color: #603cff;
+}
+/* reddit */
+[href*='reddit.com'] {
+	color: #e05a0c !important;
+	font-weight: 700;
+}
+/* instagram */
+[href*='instagram.com/'] {
+	background: -webkit-linear-gradient(
+		80deg,
+		rgb(255, 238, 0),
+		rgb(255, 157, 11),
+		#b700ff
+	);
+	-webkit-background-clip: text;
+	background-clip: auto;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+}
+/* twitter */
+[href*='twitter.com/'] {
+	color: #00acee !important;
+	font-weight: 700;
+}
+/* better discord */
+[href*='betterdiscord.app/'],
+[href*='discord.gg/'] {
+	color: #7289da !important;
+	font-weight: 700;
+}
+/* github */
+[href*='github.com'] {
+	color: #ffffff !important;
+	font-weight: 700;
+}
+/* amazon */
+[href*='amazon.com'] {
+	color: #fc9700 !important;
+	font-weight: 700;
+}
+/* snapchat */
+[href*='snapchat.com'] {
+	color: #fffb00 !important;
+	font-weight: 700;
+}
+
+/* tiktok */
+[href*='tiktok.com'] {
+	background: -webkit-linear-gradient(80deg, #e8e6e3, #fe395f, #2ebeba);
+	-webkit-background-clip: text;
+	background-clip: auto;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+}
+
+/* facebook */
+[href*='facebook.com'] {
+	color: #3b5998 !important;
+	font-weight: 700;
+}
+
+/* patreon */
+[href*='patreon.com'] {
+	color: #fe395f !important;
+	font-weight: 700;
+}
