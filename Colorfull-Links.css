@@ -1,10 +1,12 @@
 /**
  * @name colorfull - links
- * @version 0.1
+ * @version 1.0
  * @description Is a theme that add colors to links for discord
  * @author bd2r_T
  * @authorLink https://github.com/bd2r
  */
+
+/* Soical Media */
 /* youtube */
 [href*='youtu.be'],
 [href*='youtube.com'] {
@@ -16,15 +18,12 @@
 	color: #b700ff !important;
 	font-weight: 700;
 }
-/* spotify */
-[href*='spotify.com'] {
-	color: rgb(19, 185, 4) !important;
-	font-weight: 700;
-}
+
 /* discord to channels */
 [href*='discord.com/channels/'] {
 	color: #7289da !important;
 }
+
 /* discord jump to message */
 [href*='discord.com/channels/']::before {
 	content: 'Jump to Message : ';
@@ -32,11 +31,13 @@
 	font-weight: 700;
 	color: #603cff;
 }
+
 /* reddit */
 [href*='reddit.com'] {
 	color: #e05a0c !important;
 	font-weight: 700;
 }
+
 /* instagram */
 [href*='instagram.com/'] {
 	background: -webkit-linear-gradient(
@@ -50,27 +51,26 @@
 	-webkit-text-fill-color: transparent;
 	font-weight: 700;
 }
+
 /* twitter */
 [href*='twitter.com/'] {
 	color: #00acee !important;
 	font-weight: 700;
 }
+
 /* better discord */
 [href*='betterdiscord.app/'],
 [href*='discord.gg/'] {
 	color: #7289da !important;
 	font-weight: 700;
 }
+
 /* github */
 [href*='github.com'] {
 	color: #ffffff !important;
 	font-weight: 700;
 }
-/* amazon */
-[href*='amazon.com'] {
-	color: #fc9700 !important;
-	font-weight: 700;
-}
+
 /* snapchat */
 [href*='snapchat.com'] {
 	color: #fffb00 !important;
@@ -95,5 +95,41 @@
 /* patreon */
 [href*='patreon.com'] {
 	color: #fe395f !important;
+	font-weight: 700;
+}
+
+/* Music */
+/* spotify */
+[href*='spotify.com'] {
+	color: rgb(19, 185, 4) !important;
+	font-weight: 700;
+}
+
+/* Stores */
+/* amazon */
+[href*='amazon.com'] {
+	color: #fc9700 !important;
+	font-weight: 700;
+}
+
+/* Walmart */
+[href*='walmart.com'] {
+	color: #f3b53b !important;
+	font-weight: 700;
+}
+
+/* Ebay */
+[href*='ebay.com'] {
+	color: #3f89db !important;
+	font-weight: 700;
+}
+
+/* services */
+/* PayPal */
+[href*='paypal.com'] {
+	background: -webkit-linear-gradient(80deg, #253c7f, #179bd7);
+	-webkit-background-clip: text;
+	background-clip: auto;
+	-webkit-text-fill-color: transparent;
 	font-weight: 700;
 }
