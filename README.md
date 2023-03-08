@@ -11,4 +11,4 @@ sorry bad image
 </details>
 
 ## Installion
-Click on This Link To Go To the Release Tab [0.1](https://github.com/bd2r/Colorfull-Links/releases)
+Click on This Link To Go To the Release Tab [1.0](https://github.com/bd2r/Colorfull-Links/releases)
