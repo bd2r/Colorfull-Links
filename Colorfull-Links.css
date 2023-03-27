@@ -134,3 +134,41 @@
 	-webkit-text-fill-color: transparent;
 	font-weight: 700;
 }
+
+/* Gaming */
+/* Steam */
+[href*='steampowered.com'] {
+	background: -webkit-linear-gradient(80deg, #1570a5, #111727);
+	-webkit-background-clip: text;
+	background-clip: auto;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+}
+
+/* EpicGames */
+[href*='epicgames.com'] {
+	color: #363336 !important;
+	font-weight: 700;
+}
+
+/* Ubisoft */
+[href*='ubisoft.com'] {
+	color: #e35524 !important;
+	font-weight: 700;
+}
+
+/* battle net */
+[href*='battle.net'] {
+	color: #148eff !important;
+	font-weight: 700;
+}
+/* Xbox */
+[href*='xbox.com'] {
+	color: #107a10 !important;
+	font-weight: 700;
+}
+/* Riot Games */
+[href*='riotgames.com'] {
+	color: #8a2022 !important;
+	font-weight: 700;
+}
