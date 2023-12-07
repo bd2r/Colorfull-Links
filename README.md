@@ -5,8 +5,6 @@ a theme that adds colors to links for discord
 <details id="Colorful-Links-details">
     <summary>preview</summary>
 
-![Colorfull_links](https://user-images.githubusercontent.com/92543075/223362646-fe4ee19a-a0a6-42c7-abb9-870fb464785b.jpg)
-sorry bad image
 
 </details>
 
